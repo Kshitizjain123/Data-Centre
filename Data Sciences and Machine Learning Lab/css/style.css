@@ -1,0 +1,74 @@
+.banner{position: absolute;height: 100%;margin-left: 250px;margin-top: 100px;}
+#team{position: absolute;height: 100%;margin-left: 300px;margin-top: 80px}
+.nav-item:hover{background-color:dimgrey;}
+.dot {
+  height: 45px;
+  width: 45px;
+  background-color:white;
+  border-radius: 50%;
+  display: inline-block;
+    border:1px solid grey;
+}
+@font-face{
+    font-family:myFirstfont;
+    src:url("fonts/illusias.otf") format("opentype");
+    
+}
+.myfont{font-family:myFirstfont;}
+.brand{}
+.mtext{position: absolute;top: 30%;margin-left: 50%;z-index: 1}
+
+.bar{position: absolute;width: 100%;margin-left: 250px;height: 100px;background-color: black}
+.dot:hover{border-color: black;cursor: pointer;}
+
+
+.maintext{position: absolute;top: 30%;margin-left: 25%;z-index: 1;
+
+ 
+}
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 250px; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color:black;
+     box-shadow: 0px 0px 20px 1px;/* Black*/
+ 
+   /* Place content 60px from the top */
+
+}
+
+.mycarousel{position: absolute;margin-left: 250px;}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 12px;
+  text-decoration: none;
+  font-size: 20px;
+  color:white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav .active{
+    border-left: 5px solid red;
+    background-color:#484848;
+    
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+    background-color: red;
+    text-decoration: none;
+}
+
+.sidenav .links{padding-top: 300px;padding-left: 20px}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
